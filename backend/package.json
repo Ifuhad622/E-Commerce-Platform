@@ -1,0 +1,20 @@
+{
+  "name": "MelHadInvestmentEcommerce-backend",
+  "version": "1.0.0",
+  "description": "Backend for MelHad Investment E-commerce",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "sqlite3": "^5.0.2",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "author": "Ibraihim Fuhad Suma",
+  "license": "ISC"
+}
