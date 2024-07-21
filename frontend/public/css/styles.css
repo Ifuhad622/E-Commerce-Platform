@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+h1 {
+  text-align:center;
+  color:purple;
+}
+
 /* Body Styles */
 body {
     font-family: Arial, sans-serif;
@@ -86,7 +91,7 @@ footer {
     padding: 10px 0;
     background: #35424a;
     color: #ffffff;
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
