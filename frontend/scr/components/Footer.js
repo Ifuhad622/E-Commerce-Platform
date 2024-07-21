@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/App.css';
+import '../css/App.css'; // Update the path to point to the css directory
 
 const Footer = () => {
   return (

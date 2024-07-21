@@ -1,27 +1,18 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import OrderPage from './pages/OrderPage';
-import LoginPage from './pages/LoginPage';
-import AdminDashboard from './pages/AdminDashboard';
-import Header from './components/Header';
-import Footer from './components/Footer';
+// Import necessary components from react-router-dom
+import { Routes, Route } from 'react-router-dom';
+// Other imports...
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className="container">
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/orders" component={OrderPage} />
-          <Route path="/login" component={LoginPage} />
-          <Route path="/admin" component={AdminDashboard} />
-        </Switch>
-      </div>
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/order" element={<OrderPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/admin" element={<AdminDashboard />} />
+      {/* Add other routes as needed */}
+    </Routes>
   );
 }
 
 export default App;
+

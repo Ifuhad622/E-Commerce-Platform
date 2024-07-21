@@ -1,0 +1,26 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure consistent box-sizing */
+}
+
+.header, .footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add additional styles if needed */
+
